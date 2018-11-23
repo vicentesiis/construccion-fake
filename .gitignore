@@ -1,0 +1,6 @@
+node_modules
+.tmp
+server/.env
+.vscode/
+
+.DS_Store

@@ -1,0 +1,61 @@
+{
+  "name": "construction-api",
+  "version": "1.1.0",
+  "description": "API for the Construction Checklists",
+  "author": "Jerry Garcia",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nodemon server",
+    "test": "lab -a code -L",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/jerrygarciab/construction-checklists.git"
+  },
+  "keywords": [
+    "Hapi",
+    "API",
+    "Node",
+    "MongoDB"
+  ],
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "boom": "^7.2.0",
+    "code": "5.x.x",
+    "confidence": "3.x.x",
+    "dotenv": "5.x.x",
+    "eslint": "4.x.x",
+    "eslint-config-hapi": "11.x.x",
+    "eslint-plugin-hapi": "4.x.x",
+    "glob": "^7.1.2",
+    "glue": "5.x.x",
+    "good": "^8.1.1",
+    "good-console": "^7.1.0",
+    "good-squeeze": "^5.1.0",
+    "handlebars": "4.x.x",
+    "hapi": "17.x.x",
+    "hapi-auth-jwt": "^4.0.0",
+    "hapi-auth-jwt2": "^8.1.0",
+    "hapi-swagger": "9.x.x",
+    "haute-couture": "3.x.x",
+    "hpal-debug": "1.x.x",
+    "inert": "5.x.x",
+    "joi": "13.x.x",
+    "jsonwebtoken": "8.x.x",
+    "lab": "15.x.x",
+    "mongoose": "5.x.x",
+    "nodemon": "^1.17.5",
+    "toys": "2.x.x",
+    "vision": "5.x.x"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/jerrygarciab/construction-checklists/issues"
+  },
+  "homepage": "https://gitlab.com/jerrygarciab/construction-checklists#README"
+}
