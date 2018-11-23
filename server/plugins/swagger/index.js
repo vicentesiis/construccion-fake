@@ -24,7 +24,7 @@ module.exports = {
                 }
             },
             security: [{ 'jwt': [] }],
-            host: 'mysterious-crag-75420.herokuapp.com',
+            host: 'fathomless-taiga-32632.herokuapp.com',
             schemes: ['https', 'http']
         };
 
