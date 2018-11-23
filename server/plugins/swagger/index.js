@@ -24,8 +24,8 @@ module.exports = {
                 }
             },
             security: [{ 'jwt': [] }],
-            host: process.env,host,
-            schemes: [process.env.scheme]
+            host: process.env.HOST,
+            schemes: [process.env.SCHEME]
         };
 
         await server.register([
