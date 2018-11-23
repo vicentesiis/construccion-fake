@@ -24,8 +24,8 @@ module.exports = {
                 }
             },
             security: [{ 'jwt': [] }],
-            host: 'fathomless-taiga-32632.herokuapp.com',
-            schemes: ['https', 'http']
+            host: process.env,host,
+            schemes: [process.env.scheme]
         };
 
         await server.register([
